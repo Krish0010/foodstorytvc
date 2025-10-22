@@ -75,6 +75,8 @@
             background-color: #EAEAEA;
         }
     </style>
+    
+    <!-- Removed EmailJS SDK Import -->
 </head>
 <body class="font-sans text-text-dark bg-accent-bg">
     
@@ -138,6 +140,7 @@
                 </div>
             </div>
         </section>
+        
         <!-- About Us Section (ID: about-us) - Matches the provided text style -->
         <section id="about-us" class="py-20 custom-section-bg">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -302,7 +305,7 @@
         const contactForm = document.getElementById('contact-form');
         const formMessageError = document.getElementById('form-message-error');
         const formMessageSuccess = document.getElementById('form-message-success');
-        const sendButton = document.getElementById('send-button');
+        const sendButton = document.getElementById('send-button'); // Keep this if we want to update the text/state
         
         /* --- Mobile Menu Logic --- */
         menuButton.addEventListener('click', () => {
